@@ -1,0 +1,25 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "description": "loader for module federation components",
+  "author": "Robert Goik <robert.goik@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/loader.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
